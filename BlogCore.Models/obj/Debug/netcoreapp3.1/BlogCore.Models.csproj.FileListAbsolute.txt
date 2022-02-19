@@ -1,0 +1,10 @@
+C:\Users\QUINTEROS\Documents\EdmanPracticas\BlogCore\BlogCore\BlogCore.Models\bin\Debug\netcoreapp3.1\BlogCore.Models.deps.json
+C:\Users\QUINTEROS\Documents\EdmanPracticas\BlogCore\BlogCore\BlogCore.Models\bin\Debug\netcoreapp3.1\BlogCore.Models.dll
+C:\Users\QUINTEROS\Documents\EdmanPracticas\BlogCore\BlogCore\BlogCore.Models\bin\Debug\netcoreapp3.1\BlogCore.Models.pdb
+C:\Users\QUINTEROS\Documents\EdmanPracticas\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.csproj.AssemblyReference.cache
+C:\Users\QUINTEROS\Documents\EdmanPracticas\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QUINTEROS\Documents\EdmanPracticas\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.AssemblyInfoInputs.cache
+C:\Users\QUINTEROS\Documents\EdmanPracticas\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.AssemblyInfo.cs
+C:\Users\QUINTEROS\Documents\EdmanPracticas\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.csproj.CoreCompileInputs.cache
+C:\Users\QUINTEROS\Documents\EdmanPracticas\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.dll
+C:\Users\QUINTEROS\Documents\EdmanPracticas\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.pdb

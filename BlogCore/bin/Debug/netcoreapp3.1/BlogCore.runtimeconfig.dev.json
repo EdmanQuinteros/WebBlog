@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\QUINTEROS\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\QUINTEROS\\.nuget\\packages"
+    ]
+  }
+}

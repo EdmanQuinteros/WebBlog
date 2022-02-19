@@ -1,0 +1,65 @@
+﻿@model BlogCore.Models.ViewModels.HomeVM
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--Sliders-->
+<header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            @{ int cont = 0; }
+            @foreach (var item in Model.Slider)
+            {
+                var itemDinamico = cont++ == 0 ? "item active" : "item";
+
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item @itemDinamico">
+                    <img src="@Url.Content(item.UrlImagen)" />
+                    <h1 class="text-dark text-center">@Html.Raw(@item.Nombre)</h1>
+                </div>
+            }
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</header>
+<!--Cierre del Slider-->
+
+<div class="row fondoTitulo mt-5">
+    <div class="col-sm-12 py-5">
+        <h1 class="text-center text-white">Nuevos Productos</h1>
+    </div>
+</div>
+
+<!--Artoculos-->
+@if (Model.ListaArticulos.Count() > 0)
+{
+    <hr />
+    <div class="row">
+        @foreach (var articulo in Model.ListaArticulos.OrderBy(orden => orden.Id))
+        {
+            <div class="col-4">
+                <div class="card">
+                    <img src="@articulo.UrlImagen" class="img-thumbnail" width="100%" />
+                    <div class="card-body">
+                        <h5 class="text-center">@articulo.Nombre</h5>
+                        <p>@articulo.FechaCreacion</p>
+                        <a asp-action="Details" class="btn btn-success" style="border-radius:2px" asp-route-id="@articulo.Id">Más Información</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else 
+{
+    <p>No existen articulos</p>
+}
